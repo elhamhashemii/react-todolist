@@ -1,13 +1,19 @@
-
 .container {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .container h1 {
-    text-align: center;
+  text-align: center;
 }
 
 .todos {
+  width: 90%;
+  margin: 3rem auto;
+}
+
+@media screen and (min-width: 768px) {
+  .todos {
     width: 60%;
-    margin: 3rem auto;
+    margin: 0 auto;
+  }
 }
